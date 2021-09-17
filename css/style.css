@@ -1,0 +1,36 @@
+body{
+    margin-top: 35px;
+    background-image: linear-gradient(to bottom, blueviolet, white 130%);
+    color: aliceblue;
+}
+.logo{
+    width: 200px;
+}
+.foto{
+    width: 110px;
+    border-style:outset;
+    border-color: white;
+    border-radius: 60px;
+}
+div{
+    margin: auto;
+    text-align: center;
+}
+footer{
+    font-style: italic;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+}
+#links{
+    color: black;
+    max-width: 500px;
+}
