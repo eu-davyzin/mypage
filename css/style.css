@@ -34,3 +34,22 @@ section{
     color: black;
     max-width: 500px;
 }
+
+.titulo{
+    margin-top: 0%;
+}
+
+/*Aumentar*/
+.grow:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+/*Rodar*/
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-    <title>@eu.davyzin</title>
+    <title>@eu.davyzin🐱‍💻</title>
 </head>
 <body>
     <!--FOTO MINHA-->
@@ -19,15 +19,16 @@
     <!--CABEÇALHO-->
     <div>
         
-        <h3><strong>@eu.davyzin</strong></h3>
+        <h3><strong class="titulo">@eu.davyzin</strong></h3>
 
         <p>
             
             <strong>Dev Junior</strong>
             
             <br>
-            
+
             Estudante de T.I e Matemática
+        
         </p>
 
         <br>
@@ -85,5 +86,20 @@
         </footer>
 
     </div>
+
+    <script>
+
+        function typeWriter(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML = ''
+            textoArray.forEach((letra, i) => {
+                setTimeout(() => elemento.innerHTML += letra, 100 * i)
+            })
+        }
+
+        const titulo = document.querySelector('.titulo')
+        typeWriter(titulo)
+
+    </script>
 </body>
 </html>
