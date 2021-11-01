@@ -4,114 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-    <title>@eu.davyzin🆔</title>
-</head>
-<body>
-    <!--FOTO MINHA-->
-    <div>
-
-        <img src="img/eudavy.png" alt="FOTO" class="foto">
-
-    </div>
-
-    <!--CABEÇALHO-->
-    <div>
-        
-        <h3><strong class="titulo">@eu.davyzin</strong></h3>
-
-        <p>
-            
-            <strong>Dev Junior</strong>
-            
-            <br>
-
-            Estudante de T.I e Matemática
-        
-        </p>
-
-        <br>
-
-    </div>
+    
+    <title>Aprendendo Bootstrap</title>
 
     <!--Links-->
-    <div id="links">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-        <a href="https://github.com/eu-davyzin">
-            <section id="link">
-                Portifólio GitHub
-            </section>
-        </a>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Portifolio</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <div class="info-basic" id="home">
+            <img src="img/eudavy.png" alt="myphoto" class="myphoto">
+            <h1>DAVY PEREIRA</h1>
+            <p>Software Enginner & Ethical Hacker</p>
+            <div class="grid">
+                <a href="https://www.facebook.com/davy.pereira.948"><img src="img/facebook.png" alt="" class="icon"></a>
+                <a href="https://twitter.com/eu_davyzin"><img src="img/twitter.png" alt="" class="icon"></a>
+                <a href="https://github.com/eu-davyzin"><img src="img/github.png" alt="" class="icon"></a>
+                <a href="https://www.linkedin.com/in/davyzin/"><img src="img/linkedin.png" alt="" class="icon"></a>
+                <a href="https://www.instagram.com/eu.davyzin/"><img src="img/instagram.png" alt="" class="icon"></a>
+            </div><br><br><br>
+            <a href="#about"><img src="img/seta.png" alt="seta" class="icon-seta"></a>
+            
+        </div>
         
+        <div class="about" id="about">
+            <br>
+            <img src="img/info.png" alt="about" class="icon-info">
+            <h1>About Me</h1>
+            <br>
+
+            <div class="text-me">
+                <p>Hello <a href="#home">I'm Davy</a>, I'm a back-end and front-end developer and ethical hacker.🐱‍💻 I'm 15 years old and I've been developing since 2019. I'm a Front-end developer in JS and Back-end in Python. With slight knowledge of Dart and Flutter.</p>
+            </div>
+
+
+            <div class="details">
+                <h2>Personal Details</h2>
+                <div class="container">
+                    <div class="row">
+                    <div class="col-6 col-sm-3">Birthdate</div>
+                    <div class="col-6 col-sm-3">20-09-2006</div>
+                
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block"></div>
+                
+                    <div class="col-6 col-sm-3">Phone</div>
+                    <div class="col-6 col-sm-3">+55 21986025965</div>
+
+                    <div class="w-100 d-none d-md-block"></div>
+                    
+                    <div class="col-6 col-sm-3">Email</div>
+                    <div class="col-6 col-sm-3">davypereira1802@gmail.com</div>
+
+                    <div class="w-100 d-none d-md-block"></div>
+                    
+                    <div class="col-6 col-sm-3">ADDRESS</div>
+                    <div class="col-6 col-sm-3">Rio de Janeiro, BRAZIL</div>
+
+                    <div class="w-100 d-none d-md-block"></div>
+                    
+                    <div class="col-6 col-sm-3">Job Status</div>
+                    <div class="col-6 col-sm-3"><section class="destaque">FREELANCE</section></div>
+            </div>
+
         
+
+            <div class="interests">
+                <h2>My Interests</h2>
+                <div class="container">
+                    <div class="row">
+
+                    <div class="col-6 col-sm-4" id="img"><section><img src="img/games.png" alt="games"><br>Games</section></div>
+                    <div class="col-6 col-sm-4" id="img"><section><img src="img/music.png" alt="music"><br>Music</section></div>
+                    
+                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                    <div class="w-100 d-none d-md-block"></div>
+
+                    <div class="col-6 col-sm-4" id="img"><section><img src="img/money.png" alt="money"><br>Money</section></div>
+                    <div class="col-6 col-sm-4" id="img"><section><img src="img/tech.png" alt="tech"><br>Tech</section></div>
+                </div>
+            </div>
+            </div>
+            </div>    
+        </div>
+        </div>
+
         <br>
-        
-        <a href="https://www.linkedin.com/in/davyzin/">
-            <section id="link">
-                Linkedin
-            </section>
-        </a>
-        
-        
-        <br>
-        
-        <a href="https://www.instagram.com/eu.davyzin/">
-            <section id="link">
-                Instagram
-            </section>
-        </a>
-        
-        <br>
-        
-        <a href="https://www.youtube.com/channel/UCsS4CYtOOno56rVthmQLyYw">
-            <section id="link">
-                Youtube
-            </section>
-        </a>
-        
-        <br>
-        
-        <a href="https://www.instagram.com/choices.wear/">
-            <section id="link">
-                Loja ChoicesWear
-            </section>
-        </a>
-        
-        <br>
-        <br>
-        <br>
-        <br>
+
+        <div class="skills">
+            <img src="img/equalizador.png" alt="equalizador" class="icon-equa">
+            <h1>Skills</h1>
+            <br>
+
+        </div>
 
     </div>
 
-    <!--CRIADOR-->
-    <div>
-        <footer>
-            
-            <p>Criado Por</p>
-            
-            <img src="img/logo.png" alt="LOGO" class="logo">
 
-            <p>© 2021 All Rights Reserved.</p>
-        
-        </footer>
-
-    </div>
-
-    <script>
-
-        function typeWriter(elemento) {
-            const textoArray = elemento.innerHTML.split('');
-            elemento.innerHTML = ''
-            textoArray.forEach((letra, i) => {
-                setTimeout(() => elemento.innerHTML += letra, 100 * i)
-            })
-        }
-
-        const titulo = document.querySelector('.titulo')
-        typeWriter(titulo)
-
-    </script>
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
