@@ -68,7 +68,8 @@ nav{
 }
 .container{
     color: aqua;
-    margin-left: -10px;
+    margin: auto;
+    text-align: center;
 }
 .destaque{
     background-color: aqua;
@@ -104,10 +105,32 @@ h2{
     padding: 20px;
     text-align: center;
     background-color: #1E1F24;
+    margin: auto;
 }
 .icon-equa{
     width: 65px;
 }
 .skills h1{
     margin-top: 5px;
+}
+#container-skills{
+    text-align: center;
+    color: #F0F2FE;
+    padding: 20px;    
+}
+h3{
+    margin-top: 5px;
+    font-size: 26.5px;
+}
+h4{
+    margin-top: 15px;
+    font-size: 17px;
+    text-align: left;
+    color:#F0F2FE;
+}
+.div-centralizada{
+    margin-top: 15px;
+    background-color:#818092;
+    border-radius: 15px;
+    padding: 20px;
 }
