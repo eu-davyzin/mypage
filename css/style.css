@@ -134,3 +134,27 @@ h4{
     border-radius: 15px;
     padding: 20px;
 }
+
+.portifolio{
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+.icon-port{
+    width: 65px;
+    margin-top: 15px;
+}
+.portifolio h1{
+    margin-top: 5px;
+}
+#cartao{
+    color: black;
+    margin: 0 auto;
+    width: 50%;
+}
+#colun{
+    padding: 5px;
+}
+.cartoes{
+    text-align: center;
+}
