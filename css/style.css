@@ -83,8 +83,6 @@ nav{
 }
 .container{
     color: aqua;
-    margin: auto;
-    text-align: center;
 }
 .destaque{
     background-color: aqua;
@@ -129,9 +127,7 @@ h2{
     margin-top: 5px;
 }
 #container-skills{
-    text-align: center;
-    color: #F0F2FE;
-    padding: 20px;    
+    color: #F0F2FE;    
 }
 h3{
     margin-top: 5px;
